@@ -1,0 +1,41 @@
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    max-width:600px ;
+}
+.heading1{
+    font-size: larger;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.849);
+}
+.subHeading1{
+    
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.625); 
+}
+.buttonSection{
+    margin-top: 20px;
+    width: 100%;
+    display: flex; 
+    justify-content: space-between;
+}
+.buttons{
+color: #a247bb;
+font-size: large;
+font-weight: 500;
+background-color: white;
+border-radius:17px ;
+display: flex ;
+align-items: center;
+gap:4px ;
+padding: 2px 10px 2px 10px;
+/* box-shadow: ; */
+}
+.timerSection{
+    font-size:x-large;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.755);
+}
