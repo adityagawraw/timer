@@ -43,6 +43,7 @@ const Timer = () => {
           colorsTime={[10]}
           onComplete={() => {
             setTimer(false);
+            alert("Timer ended!!")
           }}
         >
           {renderTime}

@@ -32,7 +32,12 @@ display: flex ;
 align-items: center;
 gap:4px ;
 padding: 2px 10px 2px 10px;
-/* box-shadow: ; */
+outline: none;
+box-shadow:0px 3px 4px  gray ;
+}
+.buttons:active{
+
+    box-shadow:0px ;
 }
 .timerSection{
     font-size:x-large;
